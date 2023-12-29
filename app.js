@@ -5,3 +5,5 @@ const updateBG = () => {
 }
 
 document.querySelector('#my-btn').addEventListener('click', updateBG)
+
+let strange
