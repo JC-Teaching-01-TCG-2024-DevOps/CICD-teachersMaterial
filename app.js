@@ -1,8 +1,8 @@
-let test = ''
+const test = ''
 
 updateBG = () => {
-  const x = document.querySelector('body').style.backgroundColor;
-  document.querySelector('body').style.backgroundColor = (x === 'lightgoldenrodyellow') ? 'azure' : 'lightgoldenrodyellow';
-};
+  const x = document.querySelector('body').style.backgroundColor
+  document.querySelector('body').style.backgroundColor = (x === 'lightgoldenrodyellow') ? 'azure' : 'lightgoldenrodyellow'
+}
 
-document.querySelector('#myBtn').addEventListener('click', updateBG);
+document.querySelector('#my-btn').addEventListener('click', updateBG)
