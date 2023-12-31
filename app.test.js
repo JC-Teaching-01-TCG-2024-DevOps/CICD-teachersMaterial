@@ -1,10 +1,13 @@
-import { calcResult } from './app';
+const updateBackgroundColour = require("./app");
 
-describe('calc test', () => {
+test("checks function exists", () => {
+  expect(updateBackgroundColour).toBeDefined();
+});
 
-    test("checks the input numbers add up", () => {
-      expect(
-        calcResult
-        ).toBeDefined();
-    });
-})
+test("checks function excutes", () => {
+  expect(updateBackgroundColour).toBeTruthy();
+});
+
+// test("checks function returns a colour", () => {
+//   expect(updateBackgroundColour).toBeFalsy();
+// });
