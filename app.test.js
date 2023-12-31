@@ -1,4 +1,4 @@
-const updateBackgroundColour = require("./app");
+const updateBackgroundColour = require("./src/app");
 
 test("checks function exists", () => {
   expect(updateBackgroundColour).toBeDefined();
